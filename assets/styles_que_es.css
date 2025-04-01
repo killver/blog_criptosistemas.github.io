@@ -1,0 +1,7 @@
+main {
+    background-image: none!important;
+    background-color: #0f0c70;
+}
+section:nth-child(2) {
+    background-color: blueviolet!important;
+}

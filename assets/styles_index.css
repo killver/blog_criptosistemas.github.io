@@ -1,3 +1,4 @@
+
 nav {
     background-color: blueviolet;
     color: white;
@@ -51,4 +52,38 @@ main {
 
 .card img {
     border-radius: 50%;
+}
+
+.line {
+    background: #fff;
+    height: 8px;
+    width: 8px;
+    margin: 0 auto;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 10px;
+}
+.line:before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: -55px;
+    top: 3px;
+    background: #fff;
+}
+.line:after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    right: -55px;
+    top: 3px;
+    background: #fff;
+}
+
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 55px!important;
+    }
 }
