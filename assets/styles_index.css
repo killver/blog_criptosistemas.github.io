@@ -1,7 +1,13 @@
 
-nav {
+nav, footer {
     background-color: blueviolet;
     color: white;
+}
+
+footer p {
+    margin: 0px!important;
+    padding: 20px 0px;
+    text-align: center;
 }
 
 nav a {
@@ -27,6 +33,7 @@ main {
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
+    padding-bottom: 50px;
 }
 
 #main-content a {
@@ -85,5 +92,16 @@ main {
 @media (min-width: 1200px) {
     h1 {
         font-size: 55px!important;
+    }
+}
+@media (max-width: 700) {
+    .subtitle:after {
+        width: 0px!important;
+    }
+    .subtitle:before {
+        height: 100px!important;
+    }
+    .subtitle {
+        height: 100px!important;
     }
 }

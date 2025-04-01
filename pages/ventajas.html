@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloc Criptosistemas</title>
     <link rel="stylesheet" href="../assets/styles_index.css" />
+    <link rel="stylesheet" href="../assets/styles_que_es.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -39,108 +40,172 @@
         </nav>
     </header>
     <main class="d-flex flex-column justify-content-center align-items-center">
-        <div class="container p-5 mx-0" id="main-content">
-            <h1 class="text-center">
-                Bienvenido a nuestro sitio web sobre Criptosistemas
-            </h1>
-            <p class="text-center">
-                Aquí encontrarás información detallada sobre criptografía y sus
-                aplicaciones.
-            </p>
-            <div class="row mt-4">
+        <section class="container p-5 mx-0 text-center">
+            <h5>La criptografía de clave pública mejora la seguridad al usar un par de claves, pero requiere mayor
+                capacidad de procesamiento.</h5>
+            <div class="line mt-5"></div>
+            <h1 class="mt-4 mb-5">Ventajas, desventajas y diferencias con el criptosistema simétrico</h1>
+            <div class="line my-5"></div>
+            <h3>La criptografía de clave pública permite una transmisión segura sin intercambio previo de claves
+                secretas y facilita la autenticación y firma digital. Sin embargo, es más lenta que la criptografía
+                simétrica debido a su complejidad matemática y demanda mayor capacidad de procesamiento. Su seguridad
+                depende de la longitud de la clave y la resistencia del algoritmo frente a ataques computacionales.</h3>
+        </section>
+        <section class="container p-5 mb-5 mx-0 text-center position-relative section1">
+            <div class="position-absolute subtitle px-3 py-2">
+                <h3>Ventajas</h3>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center d-flex flex-column flex-lg-row card-items2">
                 <div class="col">
-                    <a href="que_es.html">
-                        <div class="card">
-                            <img src="../assets/images/que_es.png" alt="" class="card-img-top" />
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h2> ¿Qué es?</h2>
-                                </div>
-                            </div>
-                            <div class="card-text text-center">
-                                <p>
-                                    Descubre qué son los criptosistemas y su importancia en la
-                                    seguridad de la información.
-                                </p>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Mayor seguridad: </h5>
                             </div>
                         </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="como_funciona.html">
-                        <div class="card">
-                            <img src="../assets/images/como_funciona.png" alt="" class="card-img-top" />
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h2>¿Cómo funciona?</h2>
-                                </div>
-                                <div class="card-text text-center">
-                                    <p>
-                                        Aprende sobre el funcionamiento de los criptosistemas y sus
-                                        algoritmos representativos.
-                                    </p>
-                                </div>
-                            </div>
+                        <div class="card-text">
+                            No requiere compartir claves secretas, reduciendo el riesgo de compromisos de seguridad.
                         </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="ventajas.html">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="../assets/images/ventajas.png" alt="" class="card-img-top" />
-                                <div class="card-title">
-                                    <h2>Ventajas y desventajas</h2>
-                                </div>
-                                <div class="card-text text-center">
-                                    <p>
-                                        Conoce las ventajas, desventajas y diferencias con el
-                                        criptosistema simétrico.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="row mt-4">
-                    <div class="col">
-                        <a href="pages/caso.html">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/images/caso.png" alt="" class="card-img-top" />
-                                    <div class="card-title">
-                                        <h2>Caso práctivo</h2>
-                                    </div>
-                                    <div class="card-text text-center">
-                                        <p>
-                                            Conoce las ventajas, desventajas y diferencias con el
-                                            criptosistema simétrico.
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
                     </div>
-                    <div class="col">
-                        <a href="pages/observaciones.html">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/images/observaciones.png" alt="" class="card-img-top" />
-                                    <div class="card-title">
-                                        <h2>Observaciones y recomendaciones</h2>
-                                    </div>
-                                    <div class="card-text">
-                                        <p>
-                                            Conoce las ventajas, desventajas y diferencias con el
-                                            criptosistema simétrico.
-                                        </p>
-                                    </div>
-                                </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Facilita la autenticación y firma digital: </h5>
                             </div>
-                        </a>
+                        </div>
+                        <div class="card-text">
+                            Permite verificar la identidad del emisor y la integridad del mensaje.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5> Escalabilidad:</h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            Se adapta bien a entornos abiertos como internet, facilitando la comunicación segura entre
+                            múltiples usuarios sin necesidad de gestionar un gran número de claves.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Uso en infraestructura de clave pública (PKI): </h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            Permite la emisión de certificados digitales para asegurar la identidad de los participantes
+                            en la comunicación.
+                        </div>
                     </div>
                 </div>
             </div>
+        </section>
+        <section class="container p-5 mx-0 my-5 text-center position-relative">
+            <div class="position-absolute subtitle px-3 py-2">
+                <h3>Desventajas</h3>
+            </div>
+            <div class="row mt-3 justify-content-center align-items-center d-flex flex-column flex-lg-row card-items">
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Mayor consumo de recursos:</h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            Los cálculos matemáticos involucrados en los algoritmos asimétricos son más complejos y
+                            requieren mayor capacidad de procesamiento que los simétricos.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Velocidad más lenta: </h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            El cifrado y descifrado son más lentos debido a la complejidad matemática de los algoritmos.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5> Riesgo ante avances en computación cuántica</h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            Se investiga cómo los algoritmos cuánticos podrían romper los sistemas actuales de cifrado
+                            asimétrico.
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h5>Dependencia de la seguridad de la clave privada: </h5>
+                            </div>
+                        </div>
+                        <div class="card-text">
+                            Si la clave privada es comprometida, toda la seguridad del sistema se ve afectada.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container p-5 mx-0 mt'5 text-center section1 position-relative section2">
+            <div class="position-absolute subtitle px-3 py-2">
+                <h3>Diferencias con el Criptosistema Simétrico</h3>
+            </div>
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">Característica</th>
+                    <th scope="col">criptografía Simétrica</th>
+                    <th scope="col">criptografía Asimétrica</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th>Número de claves</th>
+                    <td>Usa una sola clave secreta</td>
+                    <td>Usa un par de claves (pública y privada)</td>
+                  </tr>
+                  <tr>
+                    <th>Velocidad</th>
+                    <td>Rápida, adecuada para cifrado masivo de datos</td>
+                    <td>Más lenta, adecuada para autenticación y seguridad en redes</td>
+                  </tr>
+                  <tr>
+                    <th>Seguridad</th>
+                    <td>Menos segura si la clave se filtra</td>
+                    <td>Más segura debido a la separación entre claves pública y privada</td>
+                  </tr>
+                  <tr>
+                    <th>Uso común</th>
+                    <td>Cifrado de archivos, discos y VPNs</td>
+                    <td>Firma digital, certificados, HTTPS, correo seguro</td>
+                  </tr>
+                  <tr>
+                    <th>Intercambio de claves</th>
+                    <td>Requiere métodos seguros de distribución</td>
+                    <td>No requiere intercambio seguro de claves</td>
+                  </tr>
+                </tbody>
+              </table>
+        </section>
     </main>
     <footer>
         <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>

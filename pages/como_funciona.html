@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bloc Criptosistemas</title>
     <link rel="stylesheet" href="../assets/styles_index.css" />
+    <link rel="stylesheet" href="../assets/styles_que_es.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
@@ -39,108 +40,146 @@
         </nav>
     </header>
     <main class="d-flex flex-column justify-content-center align-items-center">
-        <div class="container p-5 mx-0" id="main-content">
-            <h1 class="text-center">
-                Bienvenido a nuestro sitio web sobre Criptosistemas
-            </h1>
-            <p class="text-center">
-                Aquí encontrarás información detallada sobre criptografía y sus
-                aplicaciones.
-            </p>
-            <div class="row mt-4">
-                <div class="col">
-                    <a href="pages/que_es.html">
-                        <div class="card">
-                            <img src="assets/images/que_es.png" alt="" class="card-img-top" />
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h2> ¿Qué es?</h2>
-                                </div>
-                            </div>
-                            <div class="card-text text-center">
-                                <p>
-                                    Descubre qué son los criptosistemas y su importancia en la
-                                    seguridad de la información.
-                                </p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="pages/como_funciona.html">
-                        <div class="card">
-                            <img src="assets/images/como_funciona.png" alt="" class="card-img-top" />
-                            <div class="card-body">
-                                <div class="card-title">
-                                    <h2>¿Cómo funciona?</h2>
-                                </div>
-                                <div class="card-text text-center">
-                                    <p>
-                                        Aprende sobre el funcionamiento de los criptosistemas y sus
-                                        algoritmos representativos.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col">
-                    <a href="pages/ventajas.html">
-                        <div class="card">
-                            <div class="card-body">
-                                <img src="assets/images/ventajas.png" alt="" class="card-img-top" />
-                                <div class="card-title">
-                                    <h2>Ventajas y desventajas</h2>
-                                </div>
-                                <div class="card-text text-center">
-                                    <p>
-                                        Conoce las ventajas, desventajas y diferencias con el
-                                        criptosistema simétrico.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="row mt-4">
+        <section class="container p-5 mx-0 text-center">
+            <h5>El criptosistema de clave pública permite cifrar y descifrar mensajes sin compartir una clave secreta
+                previamente.</h5>
+            <div class="line mt-5"></div>
+            <h1 class="mt-4 mb-5">¿Cómo funciona y cuáles son sus algoritmos representativos?</h1>
+            <div class="line my-5"></div>
+            <h3>El funcionamiento de un criptosistema de clave pública se basa en el uso de claves matemáticamente
+                relacionadas, donde la clave pública cifra el mensaje y la clave privada lo descifra. Este método mejora
+                la seguridad en la comunicación y se aplica en firma digital, autenticación y protección de datos.</h3>
+        </section>
+
+        <section class="container p-5 mb-5 mx-0 text-center position-relative section1">
+            <div class="position-absolute subtitle px-3 py-2">
+                <h3>Funcionamiento del Criptosistema de Clave Pública</h3>
+            </div>
+            <p>El funcionamiento de un criptosistema de clave pública se basa en el uso de funciones matemáticas
+                complejas, como la factorización de números primos o las curvas elípticas.</p>
+            <div class="text-start">
+                <p>Pasos básicos:</p>
+                <div class="row mt-3 justify-content-center align-items-center d-flex flex-column flex-lg-row card-items2">
                     <div class="col">
-                        <a href="pages/caso.html">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/images/caso.png" alt="" class="card-img-top" />
-                                    <div class="card-title">
-                                        <h2>Caso práctivo</h2>
-                                    </div>
-                                    <div class="card-text text-center">
-                                        <p>
-                                            Conoce las ventajas, desventajas y diferencias con el
-                                            criptosistema simétrico.
-                                        </p>
-                                    </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5> Generación de claves:</h5>
                                 </div>
                             </div>
-                        </a>
+                            <div class="card-text">
+                                Se crean un par de claves, la pública y la privada, mediante algoritmos como RSA o ECC (Elliptic Curve Cryptography).
+                            </div>
+                        </div>
                     </div>
                     <div class="col">
-                        <a href="pages/observaciones.html">
-                            <div class="card">
-                                <div class="card-body">
-                                    <img src="assets/images/observaciones.png" alt="" class="card-img-top" />
-                                    <div class="card-title">
-                                        <h2>Observaciones y recomendaciones</h2>
-                                    </div>
-                                    <div class="card-text">
-                                        <p>
-                                            Conoce las ventajas, desventajas y diferencias con el
-                                            criptosistema simétrico.
-                                        </p>
-                                    </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5> Cifrado: </h5>
                                 </div>
                             </div>
-                        </a>
+                            <div class="card-text">
+                                El emisor cifra el mensaje utilizando la clave pública del receptor.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Transmisión: </h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                El mensaje cifrado se envía al destinatario.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>Descifrado:</h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                El receptor utiliza su clave privada para descifrar el mensaje.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+            <h3 class="my-4">Este proceso permite garantizar la confidencialidad de la comunicación sin necesidad de compartir
+                previamente una clave secreta.</h3>
+
+                <div class="mt-3 justify-content-center align-items-center d-flex flex-column flex-lg-row">
+                    <div class="img"> <img width="200px" src="../assets/images/como_funciona/funcionamiento.png" alt="">
+                    </div>
+                </div>
+        </section>
+        <section class="container p-5 mx-0 my-5 text-center position-relative">
+            <div class="position-absolute subtitle px-3 py-2">
+                <h3>Algoritmos Representativos</h3>
+            </div>
+            <div class="text-start">
+                <p>Algunos de los algoritmos más utilizados en criptografía de clave pública son:</p>
+                <div class="row mt-3 justify-content-center align-items-center d-flex flex-column flex-lg-row card-items">
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5> RSA (Rivest-Shamir-Adleman):</h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                Basado en la dificultad de factorizar grandes números primos.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5> DSA (Digital Signature Algorithm):</h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                Utilizado para la autenticación y firma digital.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>ElGamal:</h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                Basado en logaritmos discretos y utilizado en cifrado y firma digital.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="card-title">
+                                    <h5>ECDSA (Elliptic Curve Digital Signature Algorithm):</h5>
+                                </div>
+                            </div>
+                            <div class="card-text">
+                                Utiliza curvas elípticas para
+                        proporcionar seguridad con claves más pequeñas.
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+
+        </section>
+       
     </main>
     <footer>
         <p>&copy; 2025 Mi Sitio Web. Todos los derechos reservados.</p>
